@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+
+    <div class="home" id="blur">
+
+        <nav id="desktop-nav">
+            <div class="logo"> Ciril Victor A</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav id="hamburger-nav">
+            <div class="logo"> Ciril Victor A</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </div>
+            </div>
+        </nav>
+
+        <section id="profile">
+            <div class="section_pic-container">
+                <img src="./assets/Profile-picture.png" alt="Cieil Vctor A Profile Picture">
+            </div>
+            <div class="section_text">
+                <p class="section_text_p1">Hello, I'm</p>
+                <h1 class="title ">Ciril Victor A</h1>
+                <p class="section_text_p2">Junior Software Engineer</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('./assets/ResumeJ.pdf')">Download
+                        CV</button>
+                    <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+                </div>
+                <div id="socials-container">
+                    <img src="./assets/linkedin.png" alt="My linkedin Profile" class="icon"
+                        onclick="location.href='https://www.linkedin.com/in/ciril-victor-aciivct'" />
+                    <img src="./assets/github.png" alt="My Githu Profile" class="icon"
+                        onclick="location.href='https://github.com/Aciivct'" />
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <p class="section_text_p1">Get To Know More</p>
+            <h1 class="title ">About Me</h1>
+            <div class="section-container">
+                <div class="section_pic-container">
+                    <img src="assets/Ciril's Pic.jpg" alt="Profile Picture" class="about-pic">
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="assets/experience.png" alt="Experience Icon" class="icon">
+                            <h3>Experience</h3>
+                            <p>1+ years <br>Junior Software Engineer</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="assets/education.png" alt="Education Icon" class="icon">
+                            <h3>Education</h3>
+                            <p>B.E Mechanical Engineer <br>2018 - 2022<br>CGPA: 8.03/10</p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>Highly motivated and Skilled Junior Software Engineer with 1+Years of professional experience
+                            in the Banking domain. Seeking a challenging
+                            position to contribute to the development of innovative software solutions. Eager to apply
+                            technical expertise, problem solving abilities, and strong
+                            foundation in software development principles to drive success in a collaborative and
+                            growth-oriented environment.</p>
+                    </div>
+                </div>
+            </div>
+            <img src="assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#experience'">
+        </section>
+
+        <section id="experience">
+            <p class="section_text_p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Professional Experience</h2>
+                        <div class="article-container">
+
+                            <article>
+                                <img src="assets/checkmark.png" alt="Experience icon" class="icon">
+                                <div class="work-exp">
+                                    <h3>SysArc Infomatix Pvt.Ltd</h3>
+                                    <p>November '2022 - Present</p>
+                                    <br>
+                                    <ul>
+                                        <li><a href="https://sysarcinfomatix.com/">SysArc Infomatix</a> is one of the
+                                            Leading Product Based Fintech Company around the World , <br>Powered by <a
+                                                href="https://www.csisoftware.com/">Constellation Software Inc.</a></li>
+                                        <br>
+                                        <li> <a href="https://sysarcinfomatix.com/lendperfect-suite/">LENDPerfect
+                                                Suit</a>
+                                            , It is One of the Products of SysArc Infomatix, A fully integrated
+                                            end-to-end loan origination and management software solution.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Technical Skills</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="assets/checkmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>HTML</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="assets/checkmark.png" alt="Experience icon" class="icon">
+                                <div style="margin: 0px 60px 0px 0px;">
+                                    <h3>CSS</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="assets/checkmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>Angular</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="assets/checkmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>Java JEE</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="assets/checkmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>Spring Boot</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="assets/checkmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3 style="text-wrap: nowrap;">Spring Cloud</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="assets/checkmark.png" alt="Experience icon" class="icon">
+                                <div style="margin: 0px 50px 0px 0px;">
+                                    <h3>SQL</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="assets/checkmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>Monolithic Architecture</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="assets/checkmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>Microservices Architecture</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+        </section>
+
+        <section id="projects">
+            <p class="section_text_p1">Browse My Recent</p>
+            <h1 class="title">Projects</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="assets/Atlanta.png" alt="LAPS - FHLBA Upgrade" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-title project-title">LAPS - FHLBA Upgrade & Enhancement</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="toggleFhlba()">
+                                About Project
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="assets/ib.jpeg" alt="Project 2" class="project-img">
+                        </div><br>
+                        <h2 class="experience-sub-title project-title"> LLMS - IB</h2><br>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="toggleIb()">
+                                About Project
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="assets/Ind1.png" alt="LAPS - FHLBI.Gives Enhancement" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-title project-title"> LAPS - FHLBI.Gives Enhancement</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="toggleFhlbi()">
+                                About Project
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <img src="assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
+        </section>
+
+        <section id="contact">
+            <p class="section_text_p1">Get In Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="assets/email.png" alt="email icon" class="icon">
+                    <p><a href="mailto:cirilvictor12@gmail.com">cirilvictor12@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img src="assets/CALL.png" alt="call icon" class="icon">
+                    <p><a href="tel:+919790613093">+91 97906 13093</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img src="assets/linkedin.png" alt="linkedin icon" class="icon">
+                    <p><a href="https://www.linkedin.com/in/ciril-victor-aciivct">LinkedIn</a></p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>Copyrights &#169; 2024 Ciril Victor A. All Rights Reserved.</p>
+        </footer>
+
+        <script src="script.js"> </script>
+    </div>
+
+    <div class="fhlba" id="popup1">
+        <h2>LAPS - FHLBA Upgrade & Enhancement</h2>
+        <p style="text-align: right;"> Dec 2022 - Jul 2023</p>
+        <p>
+        <ul>
+            <li>
+                Collaborated with a team of Software Engineers in the Development, Design, Testing, To ensure successful
+                project completion,
+                Adhering to established coding standards to improve user experience and increase client satisfaction.
+            </li>
+            <li>
+                Wrote clean and efficient code in Java (Spring Boot), Angular, Implementing new features and
+                functionality
+                according to project requirements.
+            </li>
+        </ul>
+        </p>
+
+        <button class="btn btn-color-2 project-btn" onclick="toggleFhlba()">
+            Close
+        </button>
+    </div>
+
+    <div class="ib" id="popup2">
+        <h2>LLMS - IB</h2>
+        <p style="text-align: right;">Jul 2023 - Oct 2023</p>
+        <p>
+        <ul>
+            <li>
+                Level-2 Support - Providing technical support to employees of Indian Bank who are experiencing problems
+                with software applications,
+                Deploying latest patches on each server of UAT, Pre-Prod, Production Servers.
+            </li>
+            <li>Crisp Communication with Clients and work as an interface between team members and Client counterpart
+            </li>
+            <li>Worked simultaneously in both production support and development teams.</li>
+        </ul>
+        </p>
+        <button class="btn btn-color-2 project-btn" onclick="toggleIb()">
+            Close
+        </button>
+    </div>
+
+    <div class="fhlbi" id="popup3">
+        <h2>LAPS - FHLBI.Gives Enhancement</h2>
+        <p style="text-align: right;">Oct 2023 - Present</p>
+        <p>
+        <ul>
+            <li>Collaborated with cross-functional teams (BA, QA, UI-UX) to ensure successful project completion,
+                Communicated effectively with upper
+                management through weekly meetings and project progress reports</li>
+            <li>Wrote clean and efficient code in Java (Spring Boot), Angular, Implementing new features and
+                functionality according to project requirements</li>
+        </ul>
+        </p>
+        <button class="btn btn-color-2 project-btn" onclick="toggleFhlbi()">
+            Close
+        </button>
+    </div>
+
+</body>
+
+</html>
