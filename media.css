@@ -9,7 +9,14 @@
   #contact,
   #projects {
     height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
   }
+
+  #projects{
+    margin-top: 2rem;
+  }
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -25,7 +32,8 @@
   #hamburger-nav {
     display: flex;
   }
-  #experience,
+  
+  #experience,#projects
   .experience-details-container {
     margin-top: 2rem;
   }
@@ -117,4 +125,5 @@
   .text-container {
     text-align: justify;
   }
+  
 }

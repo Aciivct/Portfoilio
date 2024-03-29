@@ -306,7 +306,6 @@ flex-direction: column;
 
 #experience{
   position: relative;
-  /* padding: 0px 0px 10rem 0px; */
 }
 
 .experience-sub-title{
@@ -317,7 +316,6 @@ flex-direction: column;
 }
 
 .experience-details-container{
-  /* display: flex; */
   justify-content: center;
   flex-direction: column;
 }
@@ -328,7 +326,6 @@ flex-direction: column;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
-  justify-content: space-around;
 }
 
 article{
